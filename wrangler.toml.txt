@@ -1,0 +1,11 @@
+name = "strivo1"
+compatibility_date = "2026-01-01"
+
+[assets]
+directory = "." # O la carpeta donde tengas tus archivos HTML/JS
+
+# Enlace de tu Base de Datos D1
+[[d1_databases]]
+binding = "DB" # Nombre con el que la llamarás en tu código
+database_name = "tu-nombre-de-base-de-datos"
+database_id = "tu-id-de-base-de-datos"
